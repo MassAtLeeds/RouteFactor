@@ -1,0 +1,114 @@
+
+
+\subsection{Circuity} \label{scircuity} \index{circuity} \index{Euclidean
+distance} \index{route distance}
+In practice, the
+network of roads, paths and other guideways of the transport system
+rarely lead from a to b (or rather
+i to j, in our notation) directly. Instead they
+form a more or less circuitous path (\cref{fig:routes}). Previous work on this has
+been conducted with respect to transport to work. There is strong empirical
+evidence that circuity ($Q$) is \emph{not} constant, but varies depending on
+the length of trip \citep{Levinson2009} and the structure of the transport
+network \citep{parthasarathi2012network}, which varies between countries
+\citep{Ballou2002} and continuously over space \citep{Barthelemy2011}.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=7 cm]{EuclideanDistance}
+  \includegraphics[width=7 cm]{NetworkDistance}
+ \caption[Schematic of Euclidean and network distances]{Schematic of
+ Euclidean and network distances. Thanks to David Levinson, who licensed this
+ work, originally published in \citet{Levinson2009} with a Creative Commons licence.}
+ \label{fig:routes}
+\end{figure}
+
+Regarding
+typical values, $Q$ values between 1.21 and 1.23 have been reported for
+walking trips to rail stations in Calgary, Canada \citep{O'Sullivan1996}.
+\citet{Levinson2009} analysed the circuity of 5,000 home-work trips in and
+around Portland, USA, and found an average circuity of 1.18 overall. In the
+same study, it was also confirmed that
+circuity is highly dependent on the distance travelled: for 50,000 random
+point-pairs, circuity decreased from 1.58 to 1.2 as the distance increased from
+5 km and less to over 45 km. Based on these results, a preliminary analysis
+suggests that the relationship is logarithmic (\cref{fig:circuity}).
+Circuity (referred to as a ``detour index'') was reported by \citet[p.~565]{cole1968quantitative}
+for 12 districts in England, Scotland and Wales. Values ranged from
+1.17 (in Somerset) to 2.19 (Aberdovey); the mean was 1.4 overall.
+
+This result was corroborated by \citet{Ballou2002}, who
+found an average circuity of 1.4 for England
+as a whole, based on a sample of 37 points. Other than \citet{Levinson2009},
+none of these studies
+included the impact of distance on average circuity
+values, instead reporting single values for entire areas.
+\citet{Levinson2009} provide strong evidence to suggest that
+circuity, taken as an average value over hundreds of measurements,
+actually declines with distance, in a way that would be compatible
+with all the previously mentioned estimates of circuity.
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=14 cm]{circuity.pdf}
+ % circuity.png: 550x450 pixel, 72dpi, 19.40x15.88 cm, bb=
+ \caption[The decay of circuity with distance travelled]{The decay of circuity
+with distance travelled. Data from
+\citep{Levinson2009}, plotted here with a logarithmic decay ($y = a +
+b*log(x)$), where $a$ = 1.72 and $b$ = -0.14. Coefficients calculated using the
+command nls in R.}
+ \label{fig:circuity}
+\end{figure}
+
+Analysis of the results from \citet{Levinson2009} suggest that $Q$ decays
+logarithmically with increasing distance (see \cref{fig:circuity}):
+\begin{equation}
+Q = a + b \times log(dE)
+\label{eq:circ}
+\end{equation}
+where a and b are coefficients calculated to be 1.72 and -0.14, respectively,
+based on the \citet{Levinson2009} paper. Of course, using the results of
+a US study as the basis for assumptions in the UK is no guarantee that the
+assumptions will hold in practice, especially when
+$Q$ varies from country to country (and almost certainly at lower levels also,
+depending on the local road network and proximity of impassable obstacles
+such as rivers, railways and motorways). There is additional support
+for $Q$ decaying with increasing $dE$ from 
+theoretical sources \citep{Barthelemy2011}.
+The evidence reviewed suggests that, if one must
+assume that $dR = f(dE)$ (as is the case here, as only Euclidean distances are
+provided in the census data), \cref{eq:circ} is likely to
+provide a more accurate description of reality than assuming that $dR = dE$.
+The principle of Occam's razor states that the simplest solution that
+fits the data should generally be preferred. In this case
+recent evidence shows that $dR = dE$ simply
+does not fit the data, so $Q = 1.7 + -0.14 \times log(dE)$
+is used here. If a single circuity factor is required, Ballou's (2002) estimate
+of 1.4 for the UK is recommended, especially as this coincides
+with the circuity value interpolated in \cref{fig:circuity} around the 10 km
+mark, roughly the median distance travelled to work in the UK.
+
+Of course, circuity is affected by many other variables in addition to
+Euclidean distance. In addition, it is wrong to assume that
+more circuitous paths are always more energy intensive, as a complex
+range of factors combine to determine the most energy efficient path
+to take at any particular time \citep{Ericsson2006}. There are also large
+inter-modal variations in circuity: pedestrians
+and cyclists have been found to have particularly low $Q$ values \citep{Iacono2010}.
+It can be expected that public transport users must endure longer route lengths
+due to the need to get to and from train stations, bus stops and other
+nodes to join the network, whereas cars and cycles can join almost anywhere.
+In addition, it would be possible to weight $Q$ area by area, based on local
+estimates of \emph{global accessibility} (see \cref{skeyconcepts})
+that can could be computed by calculating the difference between $dR$ and
+$dE$ for randomly (or intelligently) selected origin-destination pairs.
+
+Beneficial as this process would be, yet these factors still omit
+the impact of car park proximity, car sharing,
+and multi-mode trips: in a more complex (potentially agent-based) model these
+could conceivably be included.
+For the time being it is assumed that \cref{eq:circ} holds for
+all trips of the same distance: quantitative evidence of the impact of other
+factors is scarce. If more data to weight $Q$ by other factors such
+as mode emerges, the model should be updated.
+
