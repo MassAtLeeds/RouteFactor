@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.3.1 (29697 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.3.1 (12590 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.1400000" minlon="11.5400000" maxlat="48.1450000" maxlon="11.5430000"/>
  <node id="398692" visible="true" version="18" changeset="10762013" timestamp="2012-02-22T18:59:41Z" user="Peter14" uid="13832" lat="48.1452196" lon="11.5414971">
   <tag k="crossing" v="traffic_signals"/>
@@ -7710,6 +7710,16 @@
   <tag k="service" v="high_speed"/>
   <tag k="type" v="route_master"/>
  </relation>
+ <relation id="2445539" visible="true" version="4" changeset="20558615" timestamp="2014-02-14T13:16:23Z" user="nomatrix" uid="461103">
+  <member type="relation" ref="1076212" role=""/>
+  <tag k="name" v="IC62"/>
+  <tag k="network" v="DB InterCity"/>
+  <tag k="operator" v="DB"/>
+  <tag k="ref" v="IC62"/>
+  <tag k="route_master" v="train"/>
+  <tag k="service" v="long_distance"/>
+  <tag k="type" v="route_master"/>
+ </relation>
  <relation id="2441613" visible="true" version="4" changeset="15218706" timestamp="2013-03-02T08:42:10Z" user="erge50" uid="393959">
   <member type="relation" ref="1085699" role=""/>
   <member type="relation" ref="1797144" role=""/>
@@ -7719,17 +7729,6 @@
   <tag k="ref" v="ICE11"/>
   <tag k="route_master" v="train"/>
   <tag k="service" v="high_speed"/>
-  <tag k="type" v="route_master"/>
- </relation>
- <relation id="2445539" visible="true" version="3" changeset="15990100" timestamp="2013-05-05T20:57:36Z" user="Nachtspazz" uid="424360">
-  <member type="relation" ref="1076212" role=""/>
-  <member type="way" ref="207526065" role=""/>
-  <tag k="name" v="IC62"/>
-  <tag k="network" v="DB InterCity"/>
-  <tag k="operator" v="DB"/>
-  <tag k="ref" v="IC62"/>
-  <tag k="route_master" v="train"/>
-  <tag k="service" v="long_distance"/>
   <tag k="type" v="route_master"/>
  </relation>
  <relation id="1926830" visible="true" version="5" changeset="13736546" timestamp="2012-11-03T17:09:39Z" user="nomatrix" uid="461103">
@@ -12859,7 +12858,7 @@
   <tag k="type" v="route"/>
   <tag k="wikipedia" v="de:Bahnstrecke München–Garmisch-Partenkirchen"/>
  </relation>
- <relation id="1311413" visible="true" version="204" changeset="20549463" timestamp="2014-02-13T22:06:03Z" user="bigbug21" uid="15748">
+ <relation id="1311413" visible="true" version="205" changeset="20561207" timestamp="2014-02-14T15:46:07Z" user="bigbug21" uid="15748">
   <member type="way" ref="29472376" role=""/>
   <member type="way" ref="29472377" role=""/>
   <member type="way" ref="25500715" role=""/>
@@ -13726,6 +13725,7 @@
   <member type="way" ref="40381807" role=""/>
   <member type="way" ref="40381795" role=""/>
   <member type="way" ref="40381796" role=""/>
+  <member type="way" ref="261555743" role=""/>
   <member type="way" ref="166091423" role=""/>
   <member type="way" ref="40381804" role=""/>
   <member type="way" ref="40381805" role=""/>
@@ -13740,8 +13740,10 @@
   <member type="way" ref="24994330" role=""/>
   <member type="way" ref="49182378" role=""/>
   <member type="way" ref="49182376" role=""/>
+  <member type="way" ref="261555742" role=""/>
   <member type="way" ref="49180822" role=""/>
   <member type="way" ref="49180819" role=""/>
+  <member type="way" ref="261555741" role=""/>
   <member type="way" ref="140014063" role=""/>
   <member type="way" ref="140014069" role=""/>
   <member type="way" ref="49179821" role=""/>
@@ -13752,8 +13754,10 @@
   <member type="way" ref="28261266" role=""/>
   <member type="way" ref="28261264" role=""/>
   <member type="way" ref="28261262" role=""/>
+  <member type="way" ref="261555740" role=""/>
   <member type="way" ref="49159213" role=""/>
   <member type="way" ref="49159211" role=""/>
+  <member type="way" ref="261555739" role=""/>
   <member type="way" ref="28260732" role=""/>
   <member type="way" ref="28260734" role=""/>
   <member type="way" ref="24839619" role=""/>
@@ -14119,7 +14123,7 @@
   <tag k="to" v="München"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="2178679" visible="true" version="64" changeset="20549463" timestamp="2014-02-13T22:05:36Z" user="bigbug21" uid="15748">
+ <relation id="2178679" visible="true" version="65" changeset="20561207" timestamp="2014-02-14T15:45:59Z" user="bigbug21" uid="15748">
   <member type="way" ref="75412691" role=""/>
   <member type="way" ref="133130813" role=""/>
   <member type="way" ref="75413171" role=""/>
@@ -14920,6 +14924,7 @@
   <member type="way" ref="40381807" role=""/>
   <member type="way" ref="40381795" role=""/>
   <member type="way" ref="40381796" role=""/>
+  <member type="way" ref="261555743" role=""/>
   <member type="way" ref="166091423" role=""/>
   <member type="way" ref="40381804" role=""/>
   <member type="way" ref="40381805" role=""/>
@@ -14934,8 +14939,10 @@
   <member type="way" ref="24994330" role=""/>
   <member type="way" ref="49182378" role=""/>
   <member type="way" ref="49182376" role=""/>
+  <member type="way" ref="261555742" role=""/>
   <member type="way" ref="49180822" role=""/>
   <member type="way" ref="49180819" role=""/>
+  <member type="way" ref="261555741" role=""/>
   <member type="way" ref="140014063" role=""/>
   <member type="way" ref="140014069" role=""/>
   <member type="way" ref="49179821" role=""/>
@@ -14946,8 +14953,10 @@
   <member type="way" ref="28261266" role=""/>
   <member type="way" ref="28261264" role=""/>
   <member type="way" ref="28261262" role=""/>
+  <member type="way" ref="261555740" role=""/>
   <member type="way" ref="49159213" role=""/>
   <member type="way" ref="49159211" role=""/>
+  <member type="way" ref="261555739" role=""/>
   <member type="way" ref="28260732" role=""/>
   <member type="way" ref="28260734" role=""/>
   <member type="way" ref="24839619" role=""/>
@@ -23277,7 +23286,7 @@
   <tag k="to" v="Linz"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="62428" visible="true" version="123" changeset="19778170" timestamp="2014-01-02T23:39:08Z" user="ToniE" uid="8748">
+ <relation id="62428" visible="true" version="124" changeset="20558661" timestamp="2014-02-14T13:18:57Z" user="JohnDoe23" uid="1494719">
   <member type="way" ref="195591882" role="outer"/>
   <member type="way" ref="195591906" role="outer"/>
   <member type="way" ref="195591879" role="outer"/>
@@ -23397,6 +23406,7 @@
   <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
   <tag k="TMC:cid_58:tabcd_1:LocationCode" v="1956"/>
   <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q1726"/>
   <tag k="wikipedia" v="de:München"/>
  </relation>
  <relation id="3246680" visible="true" version="48" changeset="20391408" timestamp="2014-02-05T12:21:58Z" user="sfancy" uid="578963">
@@ -28909,7 +28919,7 @@
   <tag k="route_master" v="coach"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="3016685" visible="true" version="117" changeset="20507415" timestamp="2014-02-11T17:38:41Z" user="mapper999" uid="165061">
+ <relation id="3016685" visible="true" version="120" changeset="20562206" timestamp="2014-02-14T16:43:47Z" user="L30" uid="631303">
   <member type="way" ref="202804663" role=""/>
   <member type="way" ref="202809352" role=""/>
   <member type="way" ref="26293737" role=""/>
@@ -29059,6 +29069,7 @@
   <member type="way" ref="233006319" role=""/>
   <member type="way" ref="145407116" role=""/>
   <member type="way" ref="145407114" role=""/>
+  <member type="way" ref="261555105" role=""/>
   <member type="way" ref="233006856" role=""/>
   <member type="way" ref="240143239" role=""/>
   <member type="way" ref="147551634" role=""/>
@@ -30166,11 +30177,15 @@
   <member type="way" ref="13880505" role=""/>
   <member type="way" ref="24586466" role=""/>
   <member type="way" ref="24456436" role=""/>
+  <member type="way" ref="261563335" role=""/>
   <member type="way" ref="121535171" role=""/>
   <member type="way" ref="121535273" role=""/>
   <member type="way" ref="51035347" role=""/>
   <member type="way" ref="4005985" role=""/>
   <member type="way" ref="129538060" role=""/>
+  <member type="way" ref="261563326" role=""/>
+  <member type="way" ref="261563328" role=""/>
+  <member type="way" ref="261563331" role=""/>
   <member type="way" ref="112604588" role=""/>
   <member type="way" ref="204850066" role=""/>
   <member type="way" ref="24447218" role=""/>
@@ -30186,15 +30201,26 @@
   <member type="way" ref="204850079" role=""/>
   <member type="way" ref="122474147" role=""/>
   <member type="way" ref="24423880" role=""/>
+  <member type="way" ref="261563361" role=""/>
+  <member type="way" ref="261563345" role=""/>
   <member type="way" ref="243216882" role=""/>
   <member type="way" ref="243216885" role=""/>
   <member type="way" ref="204643953" role=""/>
+  <member type="way" ref="261563355" role=""/>
+  <member type="way" ref="261563369" role=""/>
+  <member type="way" ref="261563358" role=""/>
   <member type="way" ref="243216889" role=""/>
+  <member type="way" ref="261563353" role=""/>
+  <member type="way" ref="261563363" role=""/>
   <member type="way" ref="243216879" role=""/>
   <member type="way" ref="243216876" role=""/>
+  <member type="way" ref="261563364" role=""/>
+  <member type="way" ref="261563373" role=""/>
   <member type="way" ref="24424042" role=""/>
   <member type="way" ref="243216800" role=""/>
   <member type="way" ref="243216794" role=""/>
+  <member type="way" ref="261543529" role=""/>
+  <member type="way" ref="261543528" role=""/>
   <member type="way" ref="243216783" role=""/>
   <member type="way" ref="243216837" role=""/>
   <member type="way" ref="243216829" role=""/>
