@@ -4,21 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 1,
-        "Person": "RL",
-        "Place": "Home"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.834808757730945,
-          53.80219971973254
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 2,
         "Person": "RL",
         "Place": "Home"
