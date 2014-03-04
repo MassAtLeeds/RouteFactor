@@ -131,6 +131,22 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "Person": "RL",
+        "Place": "Danger1",
+        "danger": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5468835830688477,
+          53.814259232792004
+        ]
+      }
     }
   ]
 }
