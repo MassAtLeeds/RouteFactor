@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "Person": "RL",
-        "Place/risk (1:3 ascending)": "Home"
+        "Place (home, work or danger)": "Home"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "Person": "RL",
-        "Place/risk (1:3 ascending)": "Work"
+        "Place (home, work or danger)": "Work"
       },
       "geometry": {
         "type": "Point",
@@ -33,8 +33,8 @@
       "type": "Feature",
       "properties": {
         "Person": "RL",
-        "Place/risk (1:3 ascending)": "Trip",
-        "Severity: 1, 2 or 3": ""
+        "Severity: 1, 2 or 3": "",
+        "Place (home, work or danger)": "Trip"
       },
       "geometry": {
         "type": "LineString",
@@ -134,8 +134,8 @@
       "type": "Feature",
       "properties": {
         "Person": "RL",
-        "Place/risk (1:3 ascending)": 1,
-        "Severity: 1, 2 or 3": 1
+        "Severity: 1, 2 or 3": 1,
+        "Place (home, work or danger)": 1
       },
       "geometry": {
         "type": "Point",
@@ -149,8 +149,8 @@
       "type": "Feature",
       "properties": {
         "Person": "RL",
-        "Place/risk (1:3 ascending)": 3,
-        "Severity: 1, 2 or 3": 3
+        "Severity: 1, 2 or 3": 3,
+        "Place (home, work or danger)": 3
       },
       "geometry": {
         "type": "Point",
@@ -164,8 +164,8 @@
       "type": "Feature",
       "properties": {
         "Person": "RL",
-        "Place/risk (1:3 ascending)": 2,
-        "Severity: 1, 2 or 3": 2
+        "Severity: 1, 2 or 3": 2,
+        "Place (home, work or danger)": 2
       },
       "geometry": {
         "type": "Point",
