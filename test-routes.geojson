@@ -728,67 +728,70 @@
         ]
       }
     },
-	{
-	  "type": "Feature",
-	  "properties": {
-		"Person": "NM",
-		"Place": "Work"
-	  },
-	  "geometry": {
-		"type": "Point",
-		"coordinates": [
-		  -1.5566468238830564,
-		  53.80791172695409
-		]
-	  }
-	},
-	{
-	  "type": "Feature",
-	  "properties": {
-		"Person": "NM",
-		"Place": "Danger",
-		"Severity": 3
-	  },
-	  "geometry": {
-		"type": "Point",
-		"coordinates": [
-		  -1.6192388534545898,
-		  53.836448941470074
-		]
-	  }
-	},
-	{
-	  "type": "Feature",
-	  "properties": {
-		"Home": "",
-		"Person": "SC",
-		"Place": "Home"
-	  },
-	  "geometry": {
-		"type": "Point",
-		"coordinates": [
-		  -1.5893054008483887,
-		  53.814816652459825
-		]
-	  }
-	},
-	{
-	  "type": "Feature",
-	  "properties": {
-		"Person": "SC",
-		"Place": "Work"
-	  },
-	  "geometry": {
-		"type": "Point",
-		"coordinates": [
-		  -1.5568345785140991,
-		  53.80786737971996
-		]
-	  }
-	},
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "Person": "NM",
+        "Place": "Work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5566468238830564,
+          53.80791172695409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Person": "NM",
+        "Place": "Danger",
+        "Severity": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6192388534545898,
+          53.836448941470074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Home": "",
+        "Person": "SC",
+        "Place": "Home"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5893054008483887,
+          53.814816652459825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Person": "SC",
+        "Place": "Work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5568345785140991,
+          53.80786737971996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Person": "SC",
+        "Place": "Trip"
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -945,8 +948,8 @@
             53.807892721002354
           ]
         ]
-		} 
-	},
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -1003,55 +1006,54 @@
         ]
       }
     },
-		{
-		  "type": "Feature",
-		  "properties": {
-			"Place": "Work",
-			"Person": "HR"
-		  },
-		  "geometry": {
-			"type": "Point",
-			"coordinates": [
-			  -1.5570920705795288,
-			  53.80793390055358
-			]
-		  }
-		},
-		{
-		  "type": "Feature",
-		  "properties": {
-			"Place": "Home",
-			"Person": "HR"
-		  },
-		  "geometry": {
-			"type": "Point",
-			"coordinates": [
-			  -1.5695428848266602,
-			  53.805257145586516
-			]
-		  }
-		},
-		{
-		  "type": "Feature",
-		  "properties": {
-			"Place": "Danger",
-			"Person": "HR",
-			"Severity": 1
-		  },
-		  "geometry": {
-			"type": "Point",
-			"coordinates": [
-			  -1.56055212020874,
-			  53.806492592192626
-			]
-		  }
-		},
-		      
-       {
+    {
+      "type": "Feature",
+      "properties": {
+        "Place": "Work",
+        "Person": "HR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5570920705795288,
+          53.80793390055358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Place": "Home",
+        "Person": "HR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5695428848266602,
+          53.805257145586516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Place": "Danger",
+        "Person": "HR",
+        "Severity": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.56055212020874,
+          53.806492592192626
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "Person": "RT",
-        "Place": "Home"
+        "Place": "Work"
       },
       "geometry": {
         "type": "Point",
@@ -1065,7 +1067,8 @@
       "type": "Feature",
       "properties": {
         "Person": "RT",
-        "Place": "Work"
+        "Place": "Home",
+        "Severity": ""
       },
       "geometry": {
         "type": "LineString",
@@ -1115,7 +1118,5 @@
         ]
       }
     }
-		
-]
+  ]
 }
-
