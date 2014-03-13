@@ -728,64 +728,64 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "Person": "NM",
-        "Place": "Work"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5566468238830564,
-          53.80791172695409
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Person": "NM",
-        "Place": "Danger",
-        "Severity": 3
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.6192388534545898,
-          53.836448941470074
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Home": "",
-        "Person": "SC",
-        "Place": "Home"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5893054008483887,
-          53.814816652459825
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Person": "SC",
-        "Place": "Work"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5568345785140991,
-          53.80786737971996
-        ]
-      }
-    },
+	{
+	  "type": "Feature",
+	  "properties": {
+		"Person": "NM",
+		"Place": "Work"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  -1.5566468238830564,
+		  53.80791172695409
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"Person": "NM",
+		"Place": "Danger",
+		"Severity": 3
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  -1.6192388534545898,
+		  53.836448941470074
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"Home": "",
+		"Person": "SC",
+		"Place": "Home"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  -1.5893054008483887,
+		  53.814816652459825
+		]
+	  }
+	},
+	{
+	  "type": "Feature",
+	  "properties": {
+		"Person": "SC",
+		"Place": "Work"
+	  },
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [
+		  -1.5568345785140991,
+		  53.80786737971996
+		]
+	  }
+	},
     {
       "type": "Feature",
       "properties": {},
@@ -945,7 +945,107 @@
             53.807892721002354
           ]
         ]
+		} 
+	},
+    {
+      "type": "Feature",
+      "properties": {
+        "Person": "HR",
+        "Place": "Trip"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.5694999694824219,
+            53.805263481303015
+          ],
+          [
+            -1.5673112869262695,
+            53.80665731565611
+          ],
+          [
+            -1.566474437713623,
+            53.80698676064141
+          ],
+          [
+            -1.5646076202392578,
+            53.8072781905858
+          ],
+          [
+            -1.5625691413879395,
+            53.80701210245613
+          ],
+          [
+            -1.5609169006347654,
+            53.80651793430604
+          ],
+          [
+            -1.5604877471923828,
+            53.80647992113014
+          ],
+          [
+            -1.5598011016845703,
+            53.80658128952261
+          ],
+          [
+            -1.558985710144043,
+            53.80791172695409
+          ],
+          [
+            -1.5571564435958862,
+            53.80763930748902
+          ],
+          [
+            -1.5570759773254395,
+            53.80794340352119
+          ]
+        ]
       }
-    }
-  ]
+    },
+		{
+		  "type": "Feature",
+		  "properties": {
+			"Place": "Work",
+			"Person": "HR"
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -1.5570920705795288,
+			  53.80793390055358
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"Place": "Home",
+			"Person": "HR"
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -1.5695428848266602,
+			  53.805257145586516
+			]
+		  }
+		},
+		{
+		  "type": "Feature",
+		  "properties": {
+			"Place": "Danger",
+			"Person": "HR",
+			"Severity": 1
+		  },
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -1.56055212020874,
+			  53.806492592192626
+			]
+		  }
+		}
+	]
 }
+
