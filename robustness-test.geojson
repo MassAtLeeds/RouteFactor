@@ -1,1 +1,1 @@
-10;" alert("hello world"); 
+function a () {alert("hello world");} 
