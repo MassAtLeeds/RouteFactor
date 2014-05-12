@@ -1,1 +1,1 @@
-function a () {alert("hello world");} 
+new function ("alert(\"hello world\");"} 
