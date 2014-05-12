@@ -1,8 +1,2 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-  function() {alert("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");}
-      alert("hello world");
-	  
-  ]
-}
+function() {alert("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");}
+alert("hello world");
