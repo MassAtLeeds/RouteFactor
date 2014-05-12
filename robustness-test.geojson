@@ -1,2 +1,1 @@
-function() {alert("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");}
 alert("hello world");
