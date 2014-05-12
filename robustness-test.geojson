@@ -1,7 +1,8 @@
 {
   "type": "FeatureCollection",
   "features": [
+  function() {alert("hello world");}
       alert("hello world");
-	  function() {alert("hello world");}
+	  
   ]
 }
