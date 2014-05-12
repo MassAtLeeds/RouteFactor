@@ -1,1 +1,1 @@
-new function ("alert(\"hello world\");");
+new Function ("alert(\"hello world\");");
